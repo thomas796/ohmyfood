@@ -1,10 +1,10 @@
         @font-face {
             font-family: 'normal';
-            src: url('font/fontNormal.ttf');
+            src: url('../font/fontNormal.ttf');
         }
         @font-face {
             font-family: 'normalBold';
-            src: url('font/fontNormalBold.ttf');
+            src: url('../font/fontNormalBold.ttf');
         }
 
         .conteneurMenu {
