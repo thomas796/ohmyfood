@@ -1,38 +1,37 @@
 
-            .conteneurMenu-red {
-                background-color: #FDF7FE;
-            }
-    
-            #mainTitle {
-                font-family: 'leChicALaFrancaise';
-                font-size: 1.8rem;
-                background-image: linear-gradient(0.25turn, #DF8C3B, rgb(146, 97, 224));
-                color:transparent;
-                -webkit-background-clip: text;
-                background-clip: text;
-                margin: 0px;
-            }
+.conteneurMenu-red {
+    background-color: #FDF7FE;
+}
 
-            .secondTitle-chic {
-                font-family: 'normalBold';
-                font-size: 1.1rem;
-                font-family: 'leChicALaFrancaise';
-            }
+#mainTitle {
+    font-family: 'leChicALaFrancaise';
+    font-size: 1.8rem;
+    background-image: linear-gradient(0.25turn, #DF8C3B, rgb(146, 97, 224));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0px;
+}
 
-            .fontChic {
-                font-family: 'leChicALaFrancaise';                
-                font-size: 0.9rem;
-            }
+.secondTitle-chic {
+    font-family: 'normalBold';
+    font-size: 1.1rem;
+    font-family: 'leChicALaFrancaise';
+}
 
-            .color1 {
-                color: #C67530;
-            }
+.fontChic {
+    font-family: 'leChicALaFrancaise';                
+    font-size: 0.9rem;
+}
 
-            .color2 {
-                color: #A56799;
-            }
+.color1 {
+    color: #C67530;
+}
 
-            .color3 {
-                color: #6E4CCC;
-            }
-            
+.color2 {
+    color: #A56799;
+}
+
+.color3 {
+    color: #6E4CCC;
+}

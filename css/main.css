@@ -287,7 +287,7 @@ footer {
     animation-timing-function: ease-in-out;
  }
 
- @keyframes contacts {
+@keyframes contacts {
     25% {
         transform: translateX(3px);
     }
