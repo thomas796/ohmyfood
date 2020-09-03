@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EAEf,gBAAgB,EAAE,MAAM;CAC3B;;AAED,AAAA,UAAU,CAAC;EACP,WAAW,EAAE,eAAe;EAC5B,SAAS,EAAE,MAAM;EACjB,gBAAgB,EAAE,2CAA2C;EAC7D,KAAK,EAAC,WAAW;EACjB,uBAAuB,EAAE,IAAI;EAC7B,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,GAAG;CACd;;AAED,AAAA,mBAAmB,CAAC;EAChB,WAAW,EAAE,YAAY;EACzB,SAAS,EAAE,MAAM;CACpB",
+    "sources": [
+        "palettteDuGout.scss"
+    ],
+    "names": [],
+    "file": "palettteDuGout.css"
+}

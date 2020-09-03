@@ -1,18 +1,20 @@
 .conteneurMenu-red {
-    background-color:#EDEFEF;
+  background-color: #EDEFEF;
 }
 
 #mainTitle {
-    font-family: 'lesDelicesDesPapilles';
-    font-size: 2rem;
-    background-image: linear-gradient(0.25turn, #183FDD, skyblue);
-    color:transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    margin: 0px;
+  font-family: 'lesDelicesDesPapilles';
+  font-size: 2rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#183FDD), to(skyblue));
+  background-image: linear-gradient(0.25turn, #183FDD, skyblue);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin: 0px;
 }
 
 .secondTitle-delice {
-    font-family: 'normalBold';
-    font-size: 0.8rem;
+  font-family: 'normalBold';
+  font-size: 0.8rem;
 }
+/*# sourceMappingURL=delicesDesPapilles.css.map */
