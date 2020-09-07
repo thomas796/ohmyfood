@@ -1,285 +1,4 @@
 @font-face {
-  font-family: 'normal';
-  src: url("../font/fontNormal.ttf");
-}
-
-@font-face {
-  font-family: 'normalBold';
-  src: url("../font/fontNormalBold.ttf");
-}
-
-.conteneurMenu {
-  width: calc(100% - 20px);
-  margin: 10px;
-  height: 800px;
-  -webkit-box-shadow: 0px 0px 10px 0px #b9b6b6;
-          box-shadow: 0px 0px 10px 0px #b9b6b6;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.topTitle {
-  width: 100%;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-}
-
-.menuBlock {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  width: 80%;
-}
-
-.menuLine {
-  height: 40px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: space-between;
-}
-
-.separationBar {
-  width: 30%;
-  height: 60px;
-}
-
-.secondTitle {
-  font-family: 'normalBold';
-  font-size: 1rem;
-  color: #3f3d3d;
-  width: 100%;
-  text-align: center;
-  border-bottom: 3px solid transparent;
-  margin: 0px;
-}
-
-.conteneurSecondTitle {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.myBorder {
-  height: 4px;
-  border-radius: 2px;
-  width: 0%;
-  background-color: red;
-}
-
-.conteneurSecondTitle:hover > .myBorder {
-  width: 80%;
-  background-color: lightsalmon;
-  -webkit-animation: secondTitleAnimation;
-          animation: secondTitleAnimation;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-}
-
-@-webkit-keyframes secondTitleAnimation {
-  0% {
-    width: 0px;
-    background-color: transparent;
-  }
-  100% {
-    width: 80%;
-    background-color: lightsalmon;
-  }
-}
-
-@keyframes secondTitleAnimation {
-  0% {
-    width: 0px;
-    background-color: transparent;
-  }
-  100% {
-    width: 80%;
-    background-color: lightsalmon;
-  }
-}
-
-.meal {
-  font-family: 'normal';
-  font-size: 0.7rem;
-  color: #3f3d3d;
-  text-align: left;
-  width: 90%;
-  height: 100%;
-  margin: 0px;
-  line-height: 18px;
-  height: 18px;
-}
-
-.prix {
-  font-family: 'normalBold';
-  font-size: 0.9rem;
-  color: #3f3d3d;
-  width: 10%;
-  text-align: right;
-  margin: 0px;
-  height: 50px;
-  line-height: 50px;
-  vertical-align: middle;
-}
-
-.conteneurMenu-red {
-  background-color: #EDEFEF;
-}
-
-#mainTitle {
-  font-family: 'lesDelicesDesPapilles';
-  font-size: 2rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(#183FDD), to(skyblue));
-  background-image: linear-gradient(0.25turn, #183FDD, skyblue);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  margin: 0px;
-}
-
-.secondTitle-delice {
-  font-family: 'normalBold';
-  font-size: 0.8rem;
-}
-
-.conteneurMenu-red {
-  background-color: #FADFDB;
-}
-
-.noteIcon {
-  width: 60px;
-  height: 60px;
-}
-
-#mainTitle {
-  font-family: 'laNoteEnchantee';
-  font-size: 2rem;
-  color: #3f3d3d;
-  margin: 0px;
-}
-
-#littleMainTitle {
-  font-family: 'laNoteEnchantee';
-  font-size: 2rem;
-  color: #3f3d3d;
-}
-
-#bottomConteneur {
-  width: 100%;
-  height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#noteBottomIcon {
-  width: 40px;
-  height: 40px;
-}
-
-#mainBottomTitle {
-  margin: 0px;
-  margin-left: 20px;
-  font-family: 'laNoteEnchantee';
-  font-size: 1.8rem;
-  color: #3f3d3d;
-}
-
-.conteneurMenu-red {
-  background-color: #FDF7FE;
-}
-
-#mainTitle {
-  font-family: 'leChicALaFrancaise';
-  font-size: 1.8rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(#DF8C3B), to(#9261e0));
-  background-image: linear-gradient(0.25turn, #DF8C3B, #9261e0);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  margin: 0px;
-}
-
-.secondTitle-chic {
-  font-family: 'normalBold';
-  font-size: 1.1rem;
-  font-family: 'leChicALaFrancaise';
-}
-
-.fontChic {
-  font-family: 'leChicALaFrancaise';
-  font-size: 0.9rem;
-}
-
-.color1 {
-  color: #C67530;
-}
-
-.color2 {
-  color: #A56799;
-}
-
-.color3 {
-  color: #6E4CCC;
-}
-
-@font-face {
   font-family: 'mainFont';
   src: url("../font/Kanit-Medium.ttf");
 }
@@ -363,6 +82,7 @@ main {
 #mainConteneur {
   max-width: 600px;
   width: 100%;
+  margin-bottom: 60px;
 }
 
 footer {
@@ -688,6 +408,287 @@ footer {
   margin-top: 15px;
 }
 
+@font-face {
+  font-family: 'normal';
+  src: url("../font/fontNormal.ttf");
+}
+
+@font-face {
+  font-family: 'normalBold';
+  src: url("../font/fontNormalBold.ttf");
+}
+
+.conteneurMenu {
+  width: calc(100% - 20px);
+  margin: 10px;
+  height: 800px;
+  -webkit-box-shadow: 0px 0px 10px 0px #b9b6b6;
+          box-shadow: 0px 0px 10px 0px #b9b6b6;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.topTitle {
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.menuBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 80%;
+}
+
+.menuLine {
+  height: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: space-between;
+}
+
+.separationBar {
+  width: 30%;
+  height: 60px;
+}
+
+.secondTitle {
+  font-family: 'normalBold';
+  font-size: 1rem;
+  color: #3f3d3d;
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid transparent;
+  margin: 0px;
+}
+
+.conteneurSecondTitle {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.myBorder {
+  height: 4px;
+  border-radius: 2px;
+  width: 0%;
+  background-color: red;
+}
+
+.conteneurSecondTitle:hover > .myBorder {
+  width: 80%;
+  background-color: lightsalmon;
+  -webkit-animation: secondTitleAnimation;
+          animation: secondTitleAnimation;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes secondTitleAnimation {
+  0% {
+    width: 0px;
+    background-color: transparent;
+  }
+  100% {
+    width: 80%;
+    background-color: lightsalmon;
+  }
+}
+
+@keyframes secondTitleAnimation {
+  0% {
+    width: 0px;
+    background-color: transparent;
+  }
+  100% {
+    width: 80%;
+    background-color: lightsalmon;
+  }
+}
+
+.meal {
+  font-family: 'normal';
+  font-size: 0.7rem;
+  color: #3f3d3d;
+  text-align: left;
+  width: 90%;
+  height: 100%;
+  margin: 0px;
+  line-height: 18px;
+  height: 18px;
+}
+
+.prix {
+  font-family: 'normalBold';
+  font-size: 0.9rem;
+  color: #3f3d3d;
+  width: 10%;
+  text-align: right;
+  margin: 0px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.conteneurMenu-red-delice {
+  background-color: #EDEFEF;
+}
+
+#mainTitle-delice {
+  font-family: 'lesDelicesDesPapilles';
+  font-size: 2rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#183FDD), to(skyblue));
+  background-image: linear-gradient(0.25turn, #183FDD, skyblue);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin: 0px;
+}
+
+.secondTitle-delice {
+  font-family: 'normalBold';
+  font-size: 0.8rem;
+}
+
+.conteneurMenu-red-noteEnchantee {
+  background-color: #FADFDB;
+}
+
+.noteIcon {
+  width: 60px;
+  height: 60px;
+}
+
+#mainTitle-noteEnchantee {
+  font-family: 'laNoteEnchantee';
+  font-size: 2rem;
+  color: #3f3d3d;
+  margin: 0px;
+}
+
+#littleMainTitle {
+  font-family: 'laNoteEnchantee';
+  font-size: 2rem;
+  color: #3f3d3d;
+}
+
+#bottomConteneur {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#noteBottomIcon {
+  width: 40px;
+  height: 40px;
+}
+
+#mainBottomTitle {
+  margin: 0px;
+  margin-left: 20px;
+  font-family: 'laNoteEnchantee';
+  font-size: 1.8rem;
+  color: #3f3d3d;
+}
+
+.conteneurMenu-red-chic {
+  background-color: #FDF7FE;
+}
+
+#mainTitle-chic {
+  font-family: 'leChicALaFrancaise';
+  font-size: 1.8rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#DF8C3B), to(#9261e0));
+  background-image: linear-gradient(0.25turn, #DF8C3B, #9261e0);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin: 0px;
+}
+
+.secondTitle-chic {
+  font-family: 'normalBold';
+  font-size: 1.1rem;
+  font-family: 'leChicALaFrancaise';
+}
+
+.fontChic {
+  font-family: 'leChicALaFrancaise';
+  font-size: 0.9rem;
+}
+
+.color1-chic {
+  color: #C67530;
+}
+
+.color2-chic {
+  color: #A56799;
+}
+
+.color3-chic {
+  color: #6E4CCC;
+}
+
 main {
   height: calc(100% - 58px);
 }
@@ -700,11 +701,11 @@ main {
   font-size: 0.8rem;
 }
 
-.conteneurMenu-red {
-  background-color: yellow;
+.conteneurMenu-red-palette {
+  background-color: #FDFFFD;
 }
 
-#mainTitle {
+#mainTitle-palette {
   font-family: 'paletteDuGout';
   font-size: 2.7rem;
   background-image: -webkit-gradient(linear, left top, right top, from(#469941), to(#BEF783));

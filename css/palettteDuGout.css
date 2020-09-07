@@ -1,8 +1,8 @@
-.conteneurMenu-red {
-  background-color: violet;
+.conteneurMenu-red-palette {
+  background-color: #FDFFFD;
 }
 
-#mainTitle {
+#mainTitle-palette {
   font-family: 'paletteDuGout';
   font-size: 2.7rem;
   background-image: -webkit-gradient(linear, left top, right top, from(#469941), to(#BEF783));

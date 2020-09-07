@@ -1,8 +1,8 @@
-.conteneurMenu-red {
+.conteneurMenu-red-chic {
   background-color: #FDF7FE;
 }
 
-#mainTitle {
+#mainTitle-chic {
   font-family: 'leChicALaFrancaise';
   font-size: 1.8rem;
   background-image: -webkit-gradient(linear, left top, right top, from(#DF8C3B), to(#9261e0));
@@ -24,15 +24,15 @@
   font-size: 0.9rem;
 }
 
-.color1 {
+.color1-chic {
   color: #C67530;
 }
 
-.color2 {
+.color2-chic {
   color: #A56799;
 }
 
-.color3 {
+.color3-chic {
   color: #6E4CCC;
 }
 /*# sourceMappingURL=leChicALaFrancaise.css.map */

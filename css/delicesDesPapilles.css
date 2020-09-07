@@ -1,8 +1,8 @@
-.conteneurMenu-red {
+.conteneurMenu-red-delice {
   background-color: #EDEFEF;
 }
 
-#mainTitle {
+#mainTitle-delice {
   font-family: 'lesDelicesDesPapilles';
   font-size: 2rem;
   background-image: -webkit-gradient(linear, left top, right top, from(#183FDD), to(skyblue));
