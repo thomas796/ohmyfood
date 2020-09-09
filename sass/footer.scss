@@ -1,0 +1,38 @@
+footer {
+    background-color: #579C87;
+    position: absolute;
+    height: 50px;
+    top: calc(100% - 50px);
+    width: 100%;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactLink {
+    color: #F9CB48;
+    font-family: 'mainFont';
+    font-size: 1rem;
+    margin: 20px;
+    height: 100%;
+    line-height: 50px;
+    vertical-align: middle;
+ }
+
+ .contactLink:hover {
+    animation-name: contacts;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+ }
+
+@keyframes contacts {
+    25% {
+        transform: translateX(3px);
+    }
+    75% {
+        transform: translateX(-3px);
+    }
+}

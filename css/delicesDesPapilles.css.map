@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACtB,gBAAgB,EAAC,OAAO;CAC3B;;AAED,AAAA,iBAAiB,CAAC;EACd,WAAW,EAAE,uBAAuB;EACpC,SAAS,EAAE,IAAI;EACf,gBAAgB,EAAE,2CAA2C;EAC7D,KAAK,EAAC,WAAW;EACjB,uBAAuB,EAAE,IAAI;EAC7B,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,GAAG;CACd;;AAED,AAAA,mBAAmB,CAAC;EAChB,WAAW,EAAE,YAAY;EACzB,SAAS,EAAE,MAAM;CACpB",
-    "sources": [
-        "delicesDesPapilles.scss"
-    ],
-    "names": [],
-    "file": "delicesDesPapilles.css"
-}

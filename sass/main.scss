@@ -1,58 +1,7 @@
 
-@font-face {
-    font-family: 'mainFont';
-    src: url("../font/Kanit-Medium.ttf");
-}
-
-@font-face {
-    font-family: 'paletteDuGout';
-    src: url('../font/fontLaPaletteDuGout.ttf');
-}
-
-@font-face {
-    font-family: 'leChicALaFrancaise';
-    src: url('../font/fontLeChicALaFrancaise.ttf');
-}
-
-@font-face {
-    font-family: 'lesDelicesDesPapilles';
-    src: url('../font/fontLesDelicesDesPapilles.ttf');
-}
-
-@font-face {
-    font-family: 'laNoteEnchantee';
-    src: url('../font/fontNoteEnchantee.ttf');
-}
 
 
 
-html {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: white;
-    overflow: hidden;
-}
-
-body {
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: white;
-}
-
-a {
-    text-decoration: none;
-}
-
-header {
-    width: 100%;
-    height: 70px;
-    top: 0px;
-    position: absolute;
-}
 
 main {
     top: 70px;
@@ -73,31 +22,111 @@ main {
 }
 
 
-footer {
-    background-color: #579C87;
-    position: absolute;
-    height: 50px;
-    top: calc(100% - 50px);
+.conteneurMenu {
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 800px;
+    box-shadow: 0px 0px 10px 0px rgb(185, 182, 182);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.topTitle {
     width: 100%;
-    left: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.menuBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+}
+.menuLine {
+    height: 40px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-items: space-between;
 }
-
-#ohmyfoodTitle {
-    font-family: 'mainFont';
-    color: #F9CB48;
-    font-size: 1.8rem;
+.separationBar {
+    width: 30%;
+    height: 60px;
+}
+.secondTitle {
+    font-family: 'normalBold';
+    font-size: 1rem;
+    color: rgb(63, 61, 61);
     width: 100%;
     text-align: center;
+    border-bottom: 3px solid transparent;
     margin: 0px;
+}
+
+.conteneurSecondTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.myBorder {
+    height: 4px;
+    border-radius: 2px;
+    width: 0%;
+    background-color: red;
+}
+
+.conteneurSecondTitle:hover > .myBorder {
+    width: 80%;
+    background-color: lightsalmon;
+    animation: secondTitleAnimation;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes secondTitleAnimation {
+    0% {
+        width: 0px;
+        background-color: transparent;
+    }
+    100% {
+        width: 80%;
+        background-color: lightsalmon;
+    } 
+}
+
+.meal {
+    font-family: 'normal';
+    font-size: 0.7rem;
+    color: rgb(63, 61, 61);
+    text-align: left;  
+    width: 90%;
     height: 100%;
-    font-weight: bold;
-    line-height: 70px;
+    margin: 0px;
+    line-height: 18px;
+    height: 18px;
+}
+.prix {
+    font-family: 'normalBold';
+    font-size: 0.9rem;
+    color: rgb(63, 61, 61);
+    width: 10%;
+    text-align: right;
+    margin: 0px;
+    height: 50px;
+    line-height: 50px;
     vertical-align: middle;
-    background-color: #579C87;
 }
 
 #menuConteneur {
@@ -108,6 +137,11 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 .menu {
     width: 250px;
@@ -208,8 +242,6 @@ footer {
 }
 
 
-
-
 #soonConteneur {
     height: 35px;
     width: 200px;
@@ -271,31 +303,7 @@ footer {
 }
 
 
-.contactLink {
-    color: #F9CB48;
-    font-family: 'mainFont';
-    font-size: 1rem;
-    margin: 20px;
-    height: 100%;
-    line-height: 50px;
-    vertical-align: middle;
- }
 
- .contactLink:hover {
-    animation-name: contacts;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
- }
-
-@keyframes contacts {
-    25% {
-        transform: translateX(3px);
-    }
-    75% {
-        transform: translateX(-3px);
-    }
-}
 
 
 .bigImageMenu {

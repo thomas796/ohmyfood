@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,iBAAiB;CAC5B;;AAED,AAAA,mBAAmB,CAAC;EAChB,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,4BAA4B;EACzC,SAAS,EAAE,MAAM;CACpB",
-    "sources": [
-        "MentionsLegal.scss"
-    ],
-    "names": [],
-    "file": "MentionsLegal.css"
-}
